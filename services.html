@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!---------- Head ---------------------->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!----------- Page Title ----------->
+    <title>Tea Station || Services</title>
+    <!----------- CCS Sheet ----------->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!----------- CSS Icons ----------->
+    <link rel="stylesheet" href="./fontawesome-free-5.13.0-web/css/all.css" />
+  </head>
+  <!-------------------------------------->
+
+  <body>
+    <!-------------- Nav Bar --------------->
+    <!--Nav buton-->
+    <span class="navBtn" id="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+    <!--Nav bar-->
+    <nav class="navbar" id="navbar">
+      <div class="navbar-header">
+        <span class="navClose" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <ul class="navbar-item">
+        <li><a href="index.html" class="nav-link">home</a></li>
+        <li><a href="about.html" class="nav-link">about</a></li>
+        <li><a href="skills.html" class="nav-link">skills</a></li>
+        <li><a href="products.html" class="nav-link">products</a></li>
+        <li><a href="services.html" class="nav-link">services</a></li>
+        <li><a href="contact.html" class="nav-link">contact</a></li>
+      </ul>
+    </nav>
+    <!-------------------------------------->
+
+    <!---------- Section 1: Main ----------->
+    <header class="header">
+      <div class="banner">
+        <h2>over one hundred flavors of</h2>
+        <h1>
+          specially <br />
+          crafted tea
+        </h1>
+        <a class="button banner-button" href="#">explore</a>
+      </div>
+    </header>
+    <div class="divider"></div>
+    <!------------------------------------->
+    <!----- Section 5: Services ---------->
+    <section class="services">
+      <div class="section-title services-title">
+        <h3>explore</h3>
+        <h2>our services</h2>
+      </div>
+      <div class="section-center clearfix">
+        <article class="service-card">
+          <div class="service-img-container">
+            <img class="service-img" src="./images/product-1.jpeg" alt="" />
+            <span class="service-icon">
+              <i class="fas fa-mortar-pestle fa-fw"></i>
+            </span>
+          </div>
+          <div class="service-info">
+            <h4>custom recipes</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Repellat, repudiandae dolore vel distinctio corporis labore.
+            </p>
+            <a class="button service-btn" href="#">read more</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-img-container">
+            <img class="service-img" src="./images/product-2.jpeg" alt="" />
+            <span class="service-icon">
+              <i class="fas fa-home fa-fw"></i>
+            </span>
+          </div>
+          <div class="service-info">
+            <h4>home delivery</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Repellat, repudiandae dolore vel distinctio corporis labore.
+            </p>
+            <a class="button service-btn" href="#">read more</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <div class="service-img-container">
+            <img class="service-img" src="./images/product-3.jpeg" alt="" />
+            <span class="service-icon">
+              <i class="fas fas fa-mug-hot fa-fw"></i>
+            </span>
+          </div>
+          <div class="service-info">
+            <h4>tea aging</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Repellat, repudiandae dolore vel distinctio corporis labore.
+            </p>
+            <a class="button service-btn" href="#">read more</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!---------------------------->
+
+    <!---- Section 7: Footer ----->
+    <footer class="footer">
+      <div class="section-center clearfix">
+        <div class="social">
+          <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+        <h4>
+          &copy;<span id="date"></span>
+          <span class="page-title">tea station</span> all rights reserves
+        </h4>
+      </div>
+    </footer>
+    <!------------------------------>
+    <script src="app.js"></script>
+  </body>
+</html>
