@@ -261,7 +261,7 @@ Section 1: Main
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/main-bcg.jpeg") center/cover no-repeat fixed;
   position: relative;
-  /* overflow-x: hiden; es si uso translation-x para la animación*/
+  overflow-x: hidden;
 }
 
 .banner {
@@ -276,12 +276,12 @@ Section 1: Main
   font-family: var(--ff-secundary);
   color: var(--clr-primary);
   /* Animation */
-  position: relative;
+  /* position: relative; */
   animation-name: cursive;
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
 }
-@keyframes cursive {
+/* @keyframes cursive {
   0% {
     opacity: 0;
     right: -800px;
@@ -298,13 +298,12 @@ Section 1: Main
     opacity: 1;
     right: 0;
   }
-}
+} */
 
-/* Otra manera de hacerlo (recordar ocular el offset)
 @keyframes cursive {
   0% {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(1000px);
   }
   50% {
     opacity: 0.5;
@@ -319,7 +318,6 @@ Section 1: Main
     transform: translateX(0px);
   }
 }
-*/
 
 .banner h1 {
   color: var(--clr-white);
@@ -327,12 +325,31 @@ Section 1: Main
   margin-top: 1.25rem;
   margin-bottom: 2rem;
   /* Animation */
-  position: relative;
+  /* position: relative; */
   animation-name: imprenta;
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
 }
 @keyframes imprenta {
+  0% {
+    opacity: 0;
+    transform: translateX(-1000px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateX(200px);
+  }
+  75% {
+    opacity: 0.75;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+/* @keyframes imprenta {
   0% {
     opacity: 0;
     left: -800px;
@@ -349,7 +366,7 @@ Section 1: Main
     opacity: 1;
     left: 0;
   }
-}
+} */
 
 .banner-button {
   outline: 0.125rem var(--clr-primary) solid;
