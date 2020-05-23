@@ -260,7 +260,6 @@ Section 1: Main
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/main-bcg.jpeg") center/cover no-repeat fixed;
-  position: relative;
   overflow-x: hidden;
 }
 
@@ -276,29 +275,10 @@ Section 1: Main
   font-family: var(--ff-secundary);
   color: var(--clr-primary);
   /* Animation */
-  /* position: relative; */
   animation-name: cursive;
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
 }
-/* @keyframes cursive {
-  0% {
-    opacity: 0;
-    right: -800px;
-  }
-  33% {
-    opacity: 0.33;
-    right: 200px;
-  }
-  66% {
-    opacity: 0.66;
-    right: -75px;
-  }
-  100% {
-    opacity: 1;
-    right: 0;
-  }
-} */
 
 @keyframes cursive {
   0% {
@@ -348,25 +328,6 @@ Section 1: Main
     transform: translateX(0px);
   }
 }
-
-/* @keyframes imprenta {
-  0% {
-    opacity: 0;
-    left: -800px;
-  }
-  33% {
-    opacity: 0.33;
-    left: 200px;
-  }
-  66% {
-    opacity: 0.66;
-    left: -75px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-} */
 
 .banner-button {
   outline: 0.125rem var(--clr-primary) solid;
