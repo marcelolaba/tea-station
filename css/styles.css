@@ -266,6 +266,11 @@ Section 1: Main
   background-size: cover;
   overflow-x: hidden;
 }
+@media screen and (min-width: 576px) {
+  .header {
+    background-attachment: scroll;
+  }
+}
 
 .banner {
   position: absolute;
