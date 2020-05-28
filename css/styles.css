@@ -260,7 +260,7 @@ Section 1: Main
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/main-bcg.jpeg");
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -268,7 +268,7 @@ Section 1: Main
 }
 @media screen and (min-width: 576px) {
   .header {
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
 }
 
